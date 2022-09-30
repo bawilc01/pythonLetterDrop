@@ -3,11 +3,11 @@
 
 An example python file showing how to drop a single letter in an input string. The code shows how a user can enter specific input to be removed and how to handle removing said input. Letters entered for removal that are not in the string prompt the message, "Value not in list. Try again."). Every time the input has a letter removed, it is updated and printed. The string will be printed and the user can keep removing letters until the string is empty or the user opts to type "quit" to exit the program. 
 
-It includes converting the string input to a list, removing a list item, converting the updated list back to a string all inside a while loop. The conversions are done in functions and the string to list conversion function handles removing spaces prior to the user entering input to remove. 
+It includes converting the string input to a list, removing a list item, converting the updated list back to a string all inside a while loop. The conversions are done in functions and the string to list conversion function handles removing spaces prior to the user entering input to remove. There's also list comprehension concepts, which is something I don't work with often so it's good practice.
 
 All the code is in letterdrop.py file with comments. 
 
-Wrote this to help out my cousin. Could be useful code for data cleansing.
+Wrote this to help out my cousin, but realized this might be useful code for data cleansing later.
 
 ### Requirements
 
